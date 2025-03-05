@@ -3,11 +3,13 @@
   top: 20%;
   z-index: 1;
   color: rgb(12, 240, 168);
+  text-align: center;
+
 }
 .home-page > img {
   z-index: 0;
   position: relative;
-  width:95%;
+  width:100%;
   top: 1%;
 }
 .home-content {
@@ -48,7 +50,6 @@ a > img {
   .home-page > .body-content {
     left: 2%;
     color: rgb(206, 248, 235);
-
     width: fit-content;
     margin-left: 8%;
     margin-top: 36px;
