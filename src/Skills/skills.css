@@ -27,7 +27,7 @@
     width:150px;
     height: 150px;
   }
-  img:hover{
+  .tech-stack > img:hover{
     width:200px;
     height: 200px;
   }

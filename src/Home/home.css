@@ -25,6 +25,10 @@ a > img {
   width: 32px;
   height: 32px;
 }
+a >  img:hover{
+  width: 40px;
+  height: 40px;
+}
 .btn-resume {
   padding: 10px;
   margin: 5px;
@@ -33,12 +37,17 @@ a > img {
   background-color: rgb(156, 184, 57);
   border: none;
   cursor: pointer;
+  border-radius:10px;
 }
 .btn-resume > a {
   text-decoration: none;
   color: white;
 }
 
+.btn-resume > a:hover{
+  font-size: 20px;
+  font-weight: bolder;
+}
 @media only screen and (min-width: 325px) and (max-width: 450px) {
   .home-page > .body-content > h1 {
     font-size: 34px;

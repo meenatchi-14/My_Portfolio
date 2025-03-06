@@ -15,10 +15,9 @@ section {
 body {
   font-family: "Poppins", sans-serif;
   background-color: #b85e91;
-  text-align: center;
+  align-items: center;
 
 }
-
 .App {
   text-align: center;
 }

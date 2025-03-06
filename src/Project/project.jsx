@@ -11,9 +11,6 @@ const Projects = () => {
            <h1 className="animate__animated  animate__bounce  home-content">
             Projects
                    </h1>
-                   <h5>Common Login Credentials</h5>
-                   <p>Email: <span>meenatchicse44@gmail.com</span> </p>
-                   <p>Password: <span>Pword@111</span> </p>
          </div>
       <div className="project-page">
         <div className="project-content">
