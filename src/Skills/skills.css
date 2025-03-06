@@ -2,8 +2,9 @@
     display: grid;
     position: absolute;
     padding: 1%;
-    margin: 5%;
+    margin: 2%;
     margin-bottom: 10%;
+    margin-top: 0%;
     width: 90vw;
     height: 60vh;
     place-items: center;
@@ -20,7 +21,7 @@
     flex-direction: row;
     flex-wrap:wrap;
     width: inherit;
-    gap: 2rem;
+    gap: 1rem;
     justify-content:space-around;
   }
   .tech-stack > img {
@@ -30,6 +31,17 @@
   .tech-stack > img:hover{
     width:200px;
     height: 200px;
+  }
+  @media only screen and (min-width:490px) and (max-width:726px){
+    .tech-stack > img {
+      width:100px;
+      height:100px;
+    }
+    .tech-stack > img:hover{
+      width:110px;
+      height: 110px;
+    }
+
   }
   @media only screen and (min-width: 325px) and (max-width: 475px) {
     .skills-page {
@@ -43,25 +55,24 @@
       width: 64px;
       height: 64px;
     }
-    img:hover{
-      width:80px;
-      height: 80px;
+    .tech-stack > img:hover{
+      width:74px;
+      height: 74px;
     }
     .skills-heading {
-      font-size: 32px;
-      margin: 20px;
+      font-size: 56px;
+      margin:5%;
       margin-top: 0%;
+      margin-bottom: 5%;
     }
   
     .skills-left-side {
       width: 100%;
       position:absolute;
-      margin-bottom: 2rem;
+      margin-bottom: 5rem;
       
     }
   
-    .tech-stack {
-      width: 95%;
-    }
+
    
   }

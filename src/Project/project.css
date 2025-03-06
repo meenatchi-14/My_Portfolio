@@ -9,13 +9,7 @@
   .project-head>h1:hover{
     color:white;
   }
-  .project-head>p>span{
-    color:white;
-    font-weight: normal;
-  }
-  .project-head>p{
-    font-weight: bold;
-  }
+  
   .project-page{
     display: flex;
     flex-wrap: wrap;

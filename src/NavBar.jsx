@@ -3,7 +3,6 @@ import { Link } from "react-scroll";
 const NavBar = () => {
   return (
     <nav className="nav">
-         <li className="nav nav-start">Portfolio</li>
     <nav className="nav nav-bar">
       <ul className="nav nav-items">
         <li className="nav nav-list">
