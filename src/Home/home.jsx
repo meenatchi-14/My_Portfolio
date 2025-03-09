@@ -32,7 +32,7 @@ const Home = () => {
         </a>
         <br />
         <button className="btn btn-resume">
-          <a href={""}
+          <a href={"https://green-kathye-62.tiiny.site/"}
           target="_blank"
           rel="noopener noreferrer" 
           alt="loading"
